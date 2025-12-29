@@ -8,8 +8,8 @@ WS="$3"          # 1-10, or -1 to reset all
 HYPR_CONF="$HOME/.config/hypr/UserConfigs/UserDecorations.conf"  # adjust if needed
 
 # Normal vs Fullscreen configuration
-NO_BORDER_GAP="gapsin:0, gapsout:0, bordersize:0" # Can do bordersize:10 for a fun indicator around or smthn
-NORMAL_BORDER_GAP="gapsin:3, gapsout:2, bordersize:1"
+NO_BORDER_GAP="gapsin:0, gapsout:0"
+NORMAL_BORDER_GAP="gapsin:3, gapsout:2"
 
 if [ "$WS" -eq -1 ]; then
     for i in {1..10}; do
